@@ -1,0 +1,27 @@
+{
+    "name": "Application.Library",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "Plugin",
+        "uGUIHelper"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_2019_3_OR_NEWER"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "0",
+            "define": "USE_URP"
+        }
+    ],
+    "noEngineReferences": false
+}

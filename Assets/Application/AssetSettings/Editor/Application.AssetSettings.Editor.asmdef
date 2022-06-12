@@ -1,0 +1,28 @@
+{
+    "name": "Application.AssetImportSettings.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.RenderPipelines.Universal.Runtime",
+        "spine-unity",
+        "spine-unity-editor",
+        "Claytechworks.Foundation",
+        "Claytechworks.Foundation.Editor",
+        "Claytechworks.Playables",
+        "Claytechworks.Spine",
+        "Claytechworks.Spine.Editor",
+        "Application",
+        "Application.Editor",
+        "Application.Tools"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

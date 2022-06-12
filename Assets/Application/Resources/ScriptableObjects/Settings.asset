@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88775784d5e267348a8b14cdab06ffda, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  SystemVersionName: 0.0.1
+  Revision_Android: 0
+  Revision_iOS: 0
+  ClientVersionCode: 1
+  BasicWidth: 1080
+  BasicHeight: 1920
+  LimitWidth: 1440
+  LimitHeight: 2560
+  FrameRate_Rendering: 30
+  FrameRate_FixedTime: 60
+  AssetBundlePlatformType: 0
+  UseLocalAssets: 0
+  UseLocalAssetBundle: 0
+  UseStreamingAssets: 1
+  UseRemoteAssetBundle: 0
+  UseParallelDownload: 1
+  MaxParallelDownloadCount: 6
+  RemoteAssetBundlePath: 
+  EnableAssetBundleCleaning: 1
+  AssetBundleVersion: 0
+  SelectedPlatformType: 0
+  EnableExceptionDialog: 1
+  WebAPI_EndPoints:
+  - Name: 0
+    DisplayName: "\u5B9F\u9A13\u30B5\u30FC\u30D0\u30FC"
+    Path: http://api-experiment.net/api/
+    Description: "\u30B7\u30B9\u30C6\u30E0\u30D0\u30FC\u30B8\u30E7\u30F3\u30A2\u30C3\u30D7\u5BFE\u5FDC\u7528\u306E\u74B0\u5883\u3067\u3059"
+  - Name: 1
+    DisplayName: "\u958B\u767A\u30B5\u30FC\u30D0\u30FC"
+    Path: https://api-development.net/api/
+    Description: "\u57FA\u672C\u306E\u958B\u767A\u7528\u306E\u74B0\u5883\u3067\u3059"
+  - Name: 2
+    DisplayName: "\u5B89\u5B9A\u30B5\u30FC\u30D0\u30FC"
+    Path: https://api-stable.net/api/
+    Description: "\u30D0\u30E9\u30F3\u30B9\u30C1\u30A7\u30C3\u30AF\u7528\u306E\u74B0\u5883\u3067\u3059"
+  - Name: 3
+    DisplayName: "\u76E3\u4FEE\u30B5\u30FC\u30D0\u30FC"
+    Path: https://api-staging.net/api/
+    Description: "\u76E3\u4FEE\u7528\u306E\u74B0\u5883\u3067\u3059"
+  - Name: 4
+    DisplayName: "\u5BE9\u67FB\u30B5\u30FC\u30D0\u30FC"
+    Path: https://api-review.net/api/
+    Description: "Apple\u306E\u30A2\u30D7\u30EA\u5BE9\u67FB\u7528\u306E\u74B0\u5883\u3067\u3059"
+  - Name: 5
+    DisplayName: "\u672C\u756A\u30B5\u30FC\u30D0\u30FC"
+    Path: https://api-release.net/api/
+    Description: "\u4E00\u822C\u516C\u958B\u7528\u306E\u74B0\u5883\u3067\u3059"
+  - Name: 7
+    DisplayName: "\u30C7\u30D0\u30C3\u30B0\u7528\u30B5\u30FC\u30D0\u30FC"
+    Path: https://api-debug.net/api/
+    Description: "\u30C7\u30D0\u30C3\u30B0\u5C02\u7528\u306E\u74B0\u5883\u3067\u3059"
+  WebAPI_DefaultEndPoint: 1
+  DevelopmentMode: 1
+  SecurityEnabled: 0
+  ServerAddress: 34.135.239.92
+  PortNumber: 32000

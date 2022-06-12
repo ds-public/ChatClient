@@ -1,0 +1,28 @@
+{
+    "name": "Application",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.UI",
+        "UnityEditor.UI",
+        "Unity.TextMeshPro",
+        "Unity.Timeline",
+        "Plugin",
+        "Application.Library",
+        "UniTask",
+        "uGUIHelper",
+        "uGUIHelper.Editor",
+        "Unity.Notifications.Android",
+        "Unity.Notifications.iOS"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_2019_3_OR_NEWER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
