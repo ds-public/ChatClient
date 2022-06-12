@@ -49,6 +49,7 @@ Thumbs.db
 /TemporaryDataFolder
 /.vs
 /.vscode
+/.vsconfig
 /Logs
 /TEMPLATE
 /AssetBundle
